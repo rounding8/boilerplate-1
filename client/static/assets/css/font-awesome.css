@@ -1,0 +1,70 @@
+
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../font/fontawesome-webfont.eot?v=4.6.3');
+    src:
+        url('../font/fontawesome-webfont.eot?#iefix&v=4.6.3'            ) format('embedded-opentype'),
+        url('../font/fontawesome-webfont.woff2?v=4.6.3'                 ) format('woff2'),
+        url('../font/fontawesome-webfont.woff?v=4.6.3'                  ) format('woff'),
+        url('../font/fontawesome-webfont.ttf?v=4.6.3'                   ) format('truetype'),
+        url('../font/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa {
+    width: 2em;
+    text-align: center;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 100%;
+    margin-right: 0.25em;
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-clock-o:before {
+    content: "\f017";
+}
+
+.fa-database:before {
+    content: "\f1c0";
+}
+
+.fa-exclamation-triangle:before {
+    content: "\f071";
+}
+
+.fa-file-text-o:before {
+    content: "\f0f6";
+}
+
+.fa-home:before {
+    content: "\f015";
+}
+
+.fa-line-chart:before {
+    content: "\f201";
+}
+
+.fa-pencil-square-o:before {
+    content: "\f044";
+}
+
+.fa-tachometer:before {
+    content: "\f0e4";
+}
+
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+.fa-users:before {
+    content: "\f0c0";
+}
