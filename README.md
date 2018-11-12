@@ -14,10 +14,10 @@ This setup would be ideal for deploying via [Docker](https://www.docker.com), [A
 ## Development
 
 ```
-$ git clone ssh://git@github.com:rounding8/boilerplate-1.git        # Clone Remote Repository
-$ cd boilerplate-1/                                                 # Change Directory to "boilerplate-1" of Local Repository
-$ yarn                                                              # Install Application Dependencies via [Yarn](https://yarnpkg.com)
-$ yarn start                                                        # Execute in "Development" Mode
+$ git clone ssh://git@github.com:rounding8/boilerplate-1.git    # Clone Remote Repository
+$ cd boilerplate-1/                                             # Change Directory to "boilerplate-1" of Local Repository
+$ yarn                                                          # Install Application Dependencies via [Yarn](https://yarnpkg.com)
+$ yarn start                                                    # Execute in "Development" Mode
 ```
 
 <br>
@@ -36,37 +36,37 @@ $ yarn start                                                        # Execute in
 
 ## Structure
 
-```javascript
-|- client                       -- Client-side (front-end) of application
-    |- static                   // Static client-side public dependencies
-        |- assets               // Imported (external) assets; rarely modified, imported as-is
-            |- css
-            |- font
-            |- js
-        |- css                  // Internal application assets; created/modified by dev
-        |- icon
-        |- img
-        |- js
-    |- views                    // EJS HTML Templates
-        |- partials             // Reuseable templates
-            |- head.ejs         // HTML <head> elements
-            |- js.ejs           // JS Script tags
-            |- menu.ejs         // Hamburger/Pancakes Menu HTML elements
-        |- path                 // Main views (related to routes)
-            |- index.ejs        // Main Index Entry File
-            |- login.ejs        // Login Page
-            |- user.ejs         // User Page
+```
+|- client               -- Client-side (front-end) of application
+  |- static             // Static client-side public dependencies
+    |- assets           // Imported (external) assets; rarely modified, imported as-is
+      |- css
+      |- font
+      |- js
+    |- css              // Internal application assets; created/modified by dev
+    |- icon
+    |- img
+    |- js
+  |- views              // EJS HTML Templates
+    |- partials         // Reuseable templates
+      |- head.ejs       // HTML <head> elements
+      |- js.ejs         // JS Script tags
+      |- menu.ejs       // Hamburger/Pancakes Menu HTML elements
+    |- path             // Main views (related to routes)
+      |- index.ejs      // Main Index Entry File
+      |- login.ejs      // Login Page
+      |- user.ejs       // User Page
 |- docs
-|- node_modules/                // Packages installed via Yarn (dependencies & devDependencies)
-|- server                       -- Server-side (back-end) of application
-    |- routes                   // Application (server) route/path handlers
-        |- api.js
-        |- login.js
-    |- index.js
-|- .gitignore                   // Git repository tracking files & folders to ignore
+|- node_modules/        // Packages installed via Yarn (dependencies & devDependencies)
+|- server               -- Server-side (back-end) of application
+  |- routes             // Application (server) route/path handlers
+    |- api.js
+    |- login.js
+  |- index.js
+|- .gitignore           // Git repository tracking files & folders to ignore
 |- LICENSE
-|- package.json                 // Resource for installing & managing Application dependencies
-|- README.md                    // Project Documentation & Code Development Management Reference
+|- package.json         // Resource for installing & managing Application dependencies
+|- README.md            // Project Documentation & Code Development Management Reference
 |- yarn.lock
 ```
 
